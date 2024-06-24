@@ -1,0 +1,12 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+html, head, body {
+    background-color: #F6F5F2;
+}
+
+.card {
+    background-color: #F0EBE3;
+}
+#card_title {
+    color: #9d888c;
+}
