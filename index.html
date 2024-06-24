@@ -32,7 +32,10 @@
           <h2 id="card_title" class="text-center pt-md-2">Get Stuff Done</h2>
         </div>
         <div class="card-body">
-          <label for="task_input" class="form-label">Enter Task</label>
+          <div class="d-flex justify-content-between">
+            <label for="task_input" class="form-label">Enter Task Below</label>
+            <p id="remove_all_task">Remove Task</p>
+          </div>
           <div class="mb-3 input-group">
             <input
               type="text"
@@ -42,10 +45,7 @@
               placeholder="Walk the dog"
             />
             <!-- 
-            todo: render each task in script js file with the card properties and such
             each task should contain a "mark completed" (text-decoration: line-through or smth lol)
-            said tasks should also contain a "X" bootstrap icon in red so when clicked, we remove from list
-            append each list to an array and then iterate over the array and display each of them out
             -->
             <button
               onclick="renderTask()"
